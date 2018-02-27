@@ -1,8 +1,10 @@
 # BannerView
 
-缩放轮播图 PZScaleCycleView
-1、里面有个ScaleBannerView，复制到项目中直接可以使用（有什么需要改进的可以给我留言）
-2、添加代码：
+## 缩放轮播图 PZScaleCycleView<br> 
+1、里面有个ScaleBannerView，复制到项目中直接可以使用（有什么需要改进的可以给我留言）<br>
+2、添加代码：<br>
+
+```
     PZScaleCycleView *cycleView = [[PZScaleCycleView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width  * .5) WithAnimationDuration:3];
         cycleView.isCycle = 1;
         cycleView.scaleNum = 0.9;
@@ -12,12 +14,13 @@
         __weak typeof(self) weakSelf = self;
         cycleView.imgOnClick = ^(NSInteger index) {
             __strong typeof(self) strongSelf = weakSelf;
-           
         };
+```
+    
 
-
-注：NomalCycleView——————这个是平常通用的轮播图，是一位同事写的，很不错，也暂放里面，可以使用
-  示例：
+### 注：NomalCycleView——————这个是平常通用的轮播图，是一位同事写的，很不错，也暂放里面，可以使用
+  示例：<br>
+  ```  
     CycleScrollView *cycleScrollView = [[CycleScrollView alloc]initWithFrame:CGRectMake(0, 0, UIScreenWidth, maxTopConstraint) animationDuration:4];
     [self.view addSubview:cycleScrollView];
     cycleScrollView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.1];
@@ -37,5 +40,7 @@
        __strong typeof(self) strongSelf = weakSelf;
       NSLog(@"点击了第%@页",pageIndex);
     };
+ ```
+   
 
 
