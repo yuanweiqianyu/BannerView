@@ -1,7 +1,7 @@
 # BannerView
 
 ## 缩放轮播图 PZScaleCycleView<br> 
-1、里面有个ScaleBannerView，复制到项目中直接可以使用<br>
+1、里面有个ScaleBannerView
 2、添加代码：<br>
 
 ```
