@@ -1,7 +1,7 @@
 # BannerView
 
 ## 缩放轮播图 PZScaleCycleView<br> 
-1、里面有个ScaleBannerView，复制到项目中直接可以使用（有什么需要改进的可以给我留言）<br>
+1、里面有个ScaleBannerView，复制到项目中直接可以使用<br>
 2、添加代码：<br>
 
 ```
@@ -18,7 +18,7 @@
 ```
     
 
-### 注：NomalCycleView——————这个是平常通用的轮播图，是一位同事写的，很不错，也暂放里面，可以使用
+### 注：NomalCycleView——————这个是平常通用的轮播图，一位同事写的
   示例：<br>
   ```  
     CycleScrollView *cycleScrollView = [[CycleScrollView alloc]initWithFrame:CGRectMake(0, 0, UIScreenWidth, maxTopConstraint) animationDuration:4];
